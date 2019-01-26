@@ -10,6 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var loginbutton: UIButton!
     @IBAction func loginbutton2(_ sender: Any) {
         performSegue(withIdentifier: "loginseg", sender: self)
     }
@@ -18,6 +19,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        loginbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

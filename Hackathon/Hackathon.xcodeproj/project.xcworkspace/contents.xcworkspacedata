@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Hackathon.xcodeproj">
+      location = "group:Screenshot(1).PNG">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

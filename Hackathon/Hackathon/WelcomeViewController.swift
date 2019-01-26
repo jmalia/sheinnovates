@@ -12,6 +12,7 @@ class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     
+    @IBOutlet weak var classbutton: UIButton!
     @IBAction func classListButton(_ sender: Any) {
         performSegue(withIdentifier: "toClassList", sender: self)
     }
@@ -20,10 +21,7 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
-        nameLabel.text = name
+        classbutton.layer.cornerRadius = 20
     }
     
     override func didReceiveMemoryWarning() {

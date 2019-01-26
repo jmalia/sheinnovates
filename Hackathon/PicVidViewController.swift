@@ -10,6 +10,9 @@ import UIKit
 
 class PicVidViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var skipbutton: UIButton!
+    
     @IBAction func textstartbutton(_ sender: Any) {
         performSegue(withIdentifier: "textstart", sender: self)
     }
@@ -22,6 +25,8 @@ class PicVidViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        button.layer.cornerRadius = 20
+        skipbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

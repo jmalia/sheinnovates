@@ -9,7 +9,9 @@
 import UIKit
 
 class UrlInfoStartViewController: UIViewController {
-
+    @IBOutlet weak var startbutton: UIButton!
+    @IBOutlet weak var skipbutton: UIButton!
+    
     @IBAction func setupstartbutton(_ sender: Any) {
         performSegue(withIdentifier: "settingupblogstart", sender: self)
     }
@@ -22,6 +24,8 @@ class UrlInfoStartViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        startbutton.layer.cornerRadius = 20
+        skipbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

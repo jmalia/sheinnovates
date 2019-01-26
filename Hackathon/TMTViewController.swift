@@ -10,6 +10,8 @@ import UIKit
 
 class TMTViewController: UIViewController {
 
+    @IBOutlet weak var backbutton: UIButton!
+    @IBOutlet weak var nextbutton: UIButton!
     @IBAction func tmtnextbutton(_ sender: Any) {
         performSegue(withIdentifier: "tmtnext", sender: self)
     }
@@ -22,6 +24,8 @@ class TMTViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        backbutton.layer.cornerRadius = 20
+        nextbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

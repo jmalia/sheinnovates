@@ -10,6 +10,8 @@ import UIKit
 
 class ClassListViewController: UIViewController {
 
+    @IBOutlet weak var gamebutton: UILabel!
+    @IBOutlet weak var blogbutton: UIButton!
     @IBAction func blogStartButton(_ sender: Any) {
         performSegue(withIdentifier: "toBlogStart", sender: self)
     }
@@ -18,6 +20,8 @@ class ClassListViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        blogbutton.layer.cornerRadius = 20
+        gamebutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

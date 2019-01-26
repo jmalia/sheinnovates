@@ -10,14 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var createbutton: UIButton!
+    @IBOutlet weak var loginbutton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        createbutton.layer.cornerRadius = 20
+        loginbutton.layer.cornerRadius = 20
     }
 
-    
-    @IBAction func tologinbutton(_ sender: Any) {
-        performSegue(withIdentifier: "tologin", sender: self)
+    @IBAction func tologinscreenbutton(_ sender: Any) {
+        performSegue(withIdentifier: "tologinscreen", sender: self)
     }
     
     @IBAction func Button(_ sender: Any) {

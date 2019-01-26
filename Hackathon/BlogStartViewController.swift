@@ -10,6 +10,7 @@ import UIKit
 
 class BlogStartViewController: UIViewController {
 
+    @IBOutlet weak var startbutton1: UIButton!
     @IBAction func startButton(_ sender: Any) {
         performSegue(withIdentifier: "level1start", sender: self)
     }
@@ -18,6 +19,7 @@ class BlogStartViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        startbutton1.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,14 +8,12 @@
 
 import UIKit
 
-var name = "Default"
-
 class NameEnterViewController: UIViewController {
 
+    @IBOutlet weak var createbutton: UIButton!
     @IBOutlet weak var Namefield: UITextField!
     
     @IBAction func nameButton(_ sender: Any) {
-        name = Namefield.text!
         performSegue(withIdentifier: "entername", sender: self)
     }
     
@@ -23,6 +21,7 @@ class NameEnterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        createbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

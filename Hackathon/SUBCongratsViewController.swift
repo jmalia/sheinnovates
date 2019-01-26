@@ -10,6 +10,8 @@ import UIKit
 
 class SUBCongratsViewController: UIViewController {
 
+    @IBOutlet weak var nextbutton: UIButton!
+    @IBOutlet weak var backbutton: UIButton!
     @IBAction func subcongratsnextbutton(_ sender: Any) {
         performSegue(withIdentifier: "subcongratsnext", sender: self)
     }
@@ -22,6 +24,8 @@ class SUBCongratsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nextbutton.layer.cornerRadius = 20
+        backbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

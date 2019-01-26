@@ -10,6 +10,8 @@ import UIKit
 
 class TBHTMLViewController: UIViewController {
 
+    @IBOutlet weak var backbutton: UIButton!
+    @IBOutlet weak var nextbutton: UIButton!
     @IBAction func tbhtmlbackbutton(_ sender: Any) {
         performSegue(withIdentifier: "tbhtmlback", sender: self)
     }
@@ -22,6 +24,8 @@ class TBHTMLViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nextbutton.layer.cornerRadius = 20
+        backbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

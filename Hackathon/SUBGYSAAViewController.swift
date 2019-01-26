@@ -10,6 +10,8 @@ import UIKit
 
 class SUBGYSAAViewController: UIViewController {
 
+    @IBOutlet weak var nextbutton: UIButton!
+    @IBOutlet weak var backbutton: UIButton!
     @IBAction func subgysaanextbutton(_ sender: Any) {
         performSegue(withIdentifier: "subgysaanext", sender: self)
     }
@@ -22,6 +24,8 @@ class SUBGYSAAViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nextbutton.layer.cornerRadius = 20
+        backbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

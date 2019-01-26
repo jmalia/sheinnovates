@@ -10,6 +10,7 @@ import UIKit
 
 class LevelTwoStartViewController: UIViewController {
 
+    @IBOutlet weak var startbutton: UIButton!
     @IBAction func level2StartButton(_ sender: Any) {
         performSegue(withIdentifier: "level2start", sender: self)
     }
@@ -18,6 +19,7 @@ class LevelTwoStartViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        startbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

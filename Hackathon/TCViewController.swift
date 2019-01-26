@@ -10,6 +10,8 @@ import UIKit
 
 class TCViewController: UIViewController {
 
+    @IBOutlet weak var backbutton: UIButton!
+    @IBOutlet weak var nextbutton: UIButton!
     @IBAction func tcnextbutton(_ sender: Any) {
         performSegue(withIdentifier: "tcnext", sender: self)
     }
@@ -22,6 +24,8 @@ class TCViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        nextbutton.layer.cornerRadius = 20
+        backbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {
