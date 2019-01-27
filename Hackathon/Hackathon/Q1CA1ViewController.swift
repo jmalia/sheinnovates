@@ -1,5 +1,5 @@
 //
-//  TTSViewController.swift
+//  Q1CA1ViewController.swift
 //  Hackathon
 //
 //  Created by Jessamyn Malia on 1/26/19.
@@ -8,24 +8,16 @@
 
 import UIKit
 
-class TTSViewController: UIViewController {
+class Q1CA1ViewController: UIViewController {
 
-    @IBOutlet weak var backbutton: UIButton!
-    @IBOutlet weak var nextbutton: UIButton!
-    @IBAction func ttsnextbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsnext", sender: self)
-    }
-    
-    @IBAction func ttsbackbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsback", sender: self)
+    @IBAction func q1canswer1button(_ sender: Any) {
+        performSegue(withIdentifier: "q1canswer1", sender: self)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        backbutton.layer.cornerRadius = 20
-        nextbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

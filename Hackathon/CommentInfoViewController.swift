@@ -10,8 +10,12 @@ import UIKit
 
 class CommentInfoViewController: UIViewController {
 
-    @IBAction func commentinfoskipbutton(_ sender: Any) {
-        performSegue(withIdentifier: "commentinfoskip", sender: self)
+    @IBAction func paypalstartbutton(_ sender: Any) {
+        performSegue(withIdentifier: "paypalstart", sender: self)
+    }
+    
+    @IBAction func paypalskipbutton(_ sender: Any) {
+        performSegue(withIdentifier: "paypalskip", sender: self)
     }
     
     override func viewDidLoad() {

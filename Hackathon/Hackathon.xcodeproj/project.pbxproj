@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5EFF3921FD3E72003ECD7B /* PayPalUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EFF3821FD3E72003ECD7B /* PayPalUpdateViewController.swift */; };
 		9A854FFB21FBFF6A00E358C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854FFA21FBFF6A00E358C8 /* AppDelegate.swift */; };
 		9A854FFD21FBFF6A00E358C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A854FFC21FBFF6A00E358C8 /* ViewController.swift */; };
 		9A85500021FBFF6A00E358C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A854FFE21FBFF6A00E358C8 /* Main.storyboard */; };
@@ -49,6 +50,23 @@
 		9AD518FB21FCDA430093C7F4 /* ACCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD518FA21FCDA430093C7F4 /* ACCCViewController.swift */; };
 		9AD518FD21FCDAE80093C7F4 /* ACCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD518FC21FCDAE80093C7F4 /* ACCViewController.swift */; };
 		9AD5190121FCDE280093C7F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190021FCDE280093C7F4 /* LoginViewController.swift */; };
+		9AD5190321FD19E10093C7F4 /* Q1Q1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190221FD19E10093C7F4 /* Q1Q1ViewController.swift */; };
+		9AD5190521FD1F1F0093C7F4 /* Q1WA1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190421FD1F1F0093C7F4 /* Q1WA1ViewController.swift */; };
+		9AD5190721FD222E0093C7F4 /* Q1CA1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190621FD222E0093C7F4 /* Q1CA1ViewController.swift */; };
+		9AD5190921FD22A30093C7F4 /* Q1Q2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190821FD22A30093C7F4 /* Q1Q2ViewController.swift */; };
+		9AD5190B21FD24BD0093C7F4 /* Q2WAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190A21FD24BD0093C7F4 /* Q2WAViewController.swift */; };
+		9AD5190D21FD25610093C7F4 /* Q2CAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190C21FD25610093C7F4 /* Q2CAViewController.swift */; };
+		9AD5190F21FD27500093C7F4 /* APPBTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5190E21FD274F0093C7F4 /* APPBTViewController.swift */; };
+		9AD5191121FD2C7C0093C7F4 /* APPBTC1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191021FD2C7C0093C7F4 /* APPBTC1ViewController.swift */; };
+		9AD5191321FD2D3F0093C7F4 /* APPBTC2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191221FD2D3F0093C7F4 /* APPBTC2ViewController.swift */; };
+		9AD5191521FD2DE00093C7F4 /* APMAPYBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191421FD2DE00093C7F4 /* APMAPYBViewController.swift */; };
+		9AD5191721FD2E800093C7F4 /* APCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191621FD2E800093C7F4 /* APCViewController.swift */; };
+		9AD5191921FD38F90093C7F4 /* Q2Q1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191821FD38F90093C7F4 /* Q2Q1ViewController.swift */; };
+		9AD5191B21FD39A30093C7F4 /* Q2Q1WAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191A21FD39A30093C7F4 /* Q2Q1WAViewController.swift */; };
+		9AD5191D21FD3A580093C7F4 /* Q2Q1CAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191C21FD3A580093C7F4 /* Q2Q1CAViewController.swift */; };
+		9AD5191F21FD3B070093C7F4 /* Q2Q2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5191E21FD3B070093C7F4 /* Q2Q2ViewController.swift */; };
+		9AD5192121FD3BAF0093C7F4 /* Q2Q2WAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5192021FD3BAF0093C7F4 /* Q2Q2WAViewController.swift */; };
+		9AD5192321FD3CBA0093C7F4 /* Q2Q2CAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5192221FD3CBA0093C7F4 /* Q2Q2CAViewController.swift */; };
 		EB222E7D21FCE870005BFE13 /* Screenshot (400).png in Resources */ = {isa = PBXBuildFile; fileRef = EB222E7C21FCE870005BFE13 /* Screenshot (400).png */; };
 		EB222E7F21FCEC2D005BFE13 /* Screen Shot 2019-01-26 at 2.23.23 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = EB222E7E21FCEC2C005BFE13 /* Screen Shot 2019-01-26 at 2.23.23 PM.png */; };
 		EB222E8121FCF208005BFE13 /* Screen Shot 2019-01-26 at 2.49.11 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = EB222E8021FCF207005BFE13 /* Screen Shot 2019-01-26 at 2.49.11 PM.png */; };
@@ -69,6 +87,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A5EFF3821FD3E72003ECD7B /* PayPalUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPalUpdateViewController.swift; sourceTree = "<group>"; };
 		9A854FF721FBFF6A00E358C8 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A854FFA21FBFF6A00E358C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A854FFC21FBFF6A00E358C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +132,23 @@
 		9AD518FA21FCDA430093C7F4 /* ACCCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCCViewController.swift; sourceTree = "<group>"; };
 		9AD518FC21FCDAE80093C7F4 /* ACCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCViewController.swift; sourceTree = "<group>"; };
 		9AD5190021FCDE280093C7F4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9AD5190221FD19E10093C7F4 /* Q1Q1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q1Q1ViewController.swift; sourceTree = "<group>"; };
+		9AD5190421FD1F1F0093C7F4 /* Q1WA1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q1WA1ViewController.swift; sourceTree = "<group>"; };
+		9AD5190621FD222E0093C7F4 /* Q1CA1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q1CA1ViewController.swift; sourceTree = "<group>"; };
+		9AD5190821FD22A30093C7F4 /* Q1Q2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q1Q2ViewController.swift; sourceTree = "<group>"; };
+		9AD5190A21FD24BD0093C7F4 /* Q2WAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2WAViewController.swift; sourceTree = "<group>"; };
+		9AD5190C21FD25610093C7F4 /* Q2CAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2CAViewController.swift; sourceTree = "<group>"; };
+		9AD5190E21FD274F0093C7F4 /* APPBTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPBTViewController.swift; sourceTree = "<group>"; };
+		9AD5191021FD2C7C0093C7F4 /* APPBTC1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPBTC1ViewController.swift; sourceTree = "<group>"; };
+		9AD5191221FD2D3F0093C7F4 /* APPBTC2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPBTC2ViewController.swift; sourceTree = "<group>"; };
+		9AD5191421FD2DE00093C7F4 /* APMAPYBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APMAPYBViewController.swift; sourceTree = "<group>"; };
+		9AD5191621FD2E800093C7F4 /* APCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APCViewController.swift; sourceTree = "<group>"; };
+		9AD5191821FD38F90093C7F4 /* Q2Q1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2Q1ViewController.swift; sourceTree = "<group>"; };
+		9AD5191A21FD39A30093C7F4 /* Q2Q1WAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2Q1WAViewController.swift; sourceTree = "<group>"; };
+		9AD5191C21FD3A580093C7F4 /* Q2Q1CAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2Q1CAViewController.swift; sourceTree = "<group>"; };
+		9AD5191E21FD3B070093C7F4 /* Q2Q2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2Q2ViewController.swift; sourceTree = "<group>"; };
+		9AD5192021FD3BAF0093C7F4 /* Q2Q2WAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2Q2WAViewController.swift; sourceTree = "<group>"; };
+		9AD5192221FD3CBA0093C7F4 /* Q2Q2CAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2Q2CAViewController.swift; sourceTree = "<group>"; };
 		EB222E7C21FCE870005BFE13 /* Screenshot (400).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot (400).png"; sourceTree = "<group>"; };
 		EB222E7E21FCEC2C005BFE13 /* Screen Shot 2019-01-26 at 2.23.23 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-01-26 at 2.23.23 PM.png"; sourceTree = "<group>"; };
 		EB222E8021FCF207005BFE13 /* Screen Shot 2019-01-26 at 2.49.11 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-01-26 at 2.49.11 PM.png"; sourceTree = "<group>"; };
@@ -202,6 +238,24 @@
 				9A85500C21FC01C000E358C8 /* NameEnterViewController.swift */,
 				9A85500E21FC8FEE00E358C8 /* WelcomeViewController.swift */,
 				9A854FFE21FBFF6A00E358C8 /* Main.storyboard */,
+				9AD5190A21FD24BD0093C7F4 /* Q2WAViewController.swift */,
+				9AD5190C21FD25610093C7F4 /* Q2CAViewController.swift */,
+				9AD5190E21FD274F0093C7F4 /* APPBTViewController.swift */,
+				9AD5191021FD2C7C0093C7F4 /* APPBTC1ViewController.swift */,
+				9AD5191221FD2D3F0093C7F4 /* APPBTC2ViewController.swift */,
+				9AD5191421FD2DE00093C7F4 /* APMAPYBViewController.swift */,
+				9AD5191621FD2E800093C7F4 /* APCViewController.swift */,
+				9AD5191821FD38F90093C7F4 /* Q2Q1ViewController.swift */,
+				9AD5191A21FD39A30093C7F4 /* Q2Q1WAViewController.swift */,
+				9AD5191C21FD3A580093C7F4 /* Q2Q1CAViewController.swift */,
+				9AD5191E21FD3B070093C7F4 /* Q2Q2ViewController.swift */,
+				9AD5192021FD3BAF0093C7F4 /* Q2Q2WAViewController.swift */,
+				9AD5192221FD3CBA0093C7F4 /* Q2Q2CAViewController.swift */,
+				9A5EFF3821FD3E72003ECD7B /* PayPalUpdateViewController.swift */,
+				9AD5190421FD1F1F0093C7F4 /* Q1WA1ViewController.swift */,
+				9AD5190621FD222E0093C7F4 /* Q1CA1ViewController.swift */,
+				9AD5190821FD22A30093C7F4 /* Q1Q2ViewController.swift */,
+				9AD5190221FD19E10093C7F4 /* Q1Q1ViewController.swift */,
 				EB222EA021FD0587005BFE13 /* 95bc32cc24e14ebaa9b427e1d3b86474.jpeg */,
 				EB222E9E21FD00EF005BFE13 /* 076485d6e79d4baf8287990f90e0f6db.jpeg */,
 				EB222E9A21FCFF5E005BFE13 /* Screenshot(9).PNG */,
@@ -316,23 +370,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD5191521FD2DE00093C7F4 /* APMAPYBViewController.swift in Sources */,
 				9AD518FD21FCDAE80093C7F4 /* ACCViewController.swift in Sources */,
+				9AD5190B21FD24BD0093C7F4 /* Q2WAViewController.swift in Sources */,
 				9A85503921FCB1ED00E358C8 /* CommentInfoViewController.swift in Sources */,
+				9AD5191921FD38F90093C7F4 /* Q2Q1ViewController.swift in Sources */,
 				9AD518F721FCD83A0093C7F4 /* TMTViewController.swift in Sources */,
 				9A85503B21FCB38200E358C8 /* CommentAddViewController.swift in Sources */,
+				9AD5191D21FD3A580093C7F4 /* Q2Q1CAViewController.swift in Sources */,
 				9AD518F921FCD90C0093C7F4 /* TCViewController.swift in Sources */,
+				9AD5190F21FD27500093C7F4 /* APPBTViewController.swift in Sources */,
 				9A854FFD21FBFF6A00E358C8 /* ViewController.swift in Sources */,
 				9A85500F21FC8FEE00E358C8 /* WelcomeViewController.swift in Sources */,
 				9A85501921FC9CB200E358C8 /* BlogStartViewController.swift in Sources */,
+				9AD5191121FD2C7C0093C7F4 /* APPBTC1ViewController.swift in Sources */,
+				9AD5192321FD3CBA0093C7F4 /* Q2Q2CAViewController.swift in Sources */,
 				9A85501521FC98F400E358C8 /* LevelOneStartViewController.swift in Sources */,
 				9A85501721FC9BD600E358C8 /* ClassListViewController.swift in Sources */,
 				9A85500D21FC01C000E358C8 /* NameEnterViewController.swift in Sources */,
 				9A85503321FCAE8800E358C8 /* SurveyAddingViewController.swift in Sources */,
+				9A5EFF3921FD3E72003ECD7B /* PayPalUpdateViewController.swift in Sources */,
+				9AD5191B21FD39A30093C7F4 /* Q2Q1WAViewController.swift in Sources */,
 				9A85504321FCBA5D00E358C8 /* BlogCongratsViewController.swift in Sources */,
 				9A85501F21FCA24A00E358C8 /* UrlGetViewController.swift in Sources */,
 				9A85504521FCC1D200E358C8 /* SUBToStartViewController.swift in Sources */,
+				9AD5191721FD2E800093C7F4 /* APCViewController.swift in Sources */,
+				9AD5190921FD22A30093C7F4 /* Q1Q2ViewController.swift in Sources */,
 				9AD518F121FCD5FC0093C7F4 /* TTSViewController.swift in Sources */,
 				9A85502721FCA69400E358C8 /* PicVidViewController.swift in Sources */,
+				9AD5191F21FD3B070093C7F4 /* Q2Q2ViewController.swift in Sources */,
 				9A85503F21FCB5E800E358C8 /* FinalQuizViewController.swift in Sources */,
 				9A85502F21FCAC2A00E358C8 /* LevelThreeStartViewController.swift in Sources */,
 				9A85504921FCC5C300E358C8 /* SUBGYSAAViewController.swift in Sources */,
@@ -345,15 +411,21 @@
 				9AD518FB21FCDA430093C7F4 /* ACCCViewController.swift in Sources */,
 				9A85503721FCB06900E358C8 /* LevelFourStartViewController.swift in Sources */,
 				9A85501B21FC9E6300E358C8 /* UrlInfoStartViewController.swift in Sources */,
+				9AD5191321FD2D3F0093C7F4 /* APPBTC2ViewController.swift in Sources */,
 				9A85502921FCA8B100E358C8 /* PicVidSavingViewController.swift in Sources */,
+				9AD5190321FD19E10093C7F4 /* Q1Q1ViewController.swift in Sources */,
 				9A85504721FCC52400E358C8 /* SUBLCASViewController.swift in Sources */,
 				9A85503121FCADB000E358C8 /* SurveyInfoViewController.swift in Sources */,
 				9A85503D21FCB4A100E358C8 /* QuizFourViewController.swift in Sources */,
 				9A85504121FCB6C200E358C8 /* FinalSkipWarningViewController.swift in Sources */,
+				9AD5190D21FD25610093C7F4 /* Q2CAViewController.swift in Sources */,
+				9AD5192121FD3BAF0093C7F4 /* Q2Q2WAViewController.swift in Sources */,
 				9AD518F321FCD6A80093C7F4 /* TBHTMLViewController.swift in Sources */,
 				9A85503521FCAF7600E358C8 /* QuizThreeViewController.swift in Sources */,
+				9AD5190521FD1F1F0093C7F4 /* Q1WA1ViewController.swift in Sources */,
 				9A85502521FCA57D00E358C8 /* LevelTwoStartViewController.swift in Sources */,
 				9A85502321FCA48B00E358C8 /* QuizOneViewController.swift in Sources */,
+				9AD5190721FD222E0093C7F4 /* Q1CA1ViewController.swift in Sources */,
 				9A854FFB21FBFF6A00E358C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

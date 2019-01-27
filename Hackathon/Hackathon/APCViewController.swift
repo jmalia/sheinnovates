@@ -1,5 +1,5 @@
 //
-//  TTSViewController.swift
+//  APCViewController.swift
 //  Hackathon
 //
 //  Created by Jessamyn Malia on 1/26/19.
@@ -8,24 +8,20 @@
 
 import UIKit
 
-class TTSViewController: UIViewController {
+class APCViewController: UIViewController {
 
-    @IBOutlet weak var backbutton: UIButton!
-    @IBOutlet weak var nextbutton: UIButton!
-    @IBAction func ttsnextbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsnext", sender: self)
+    @IBAction func apcbackbutton(_ sender: Any) {
+        performSegue(withIdentifier: "apcback", sender: self)
     }
     
-    @IBAction func ttsbackbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsback", sender: self)
+    @IBAction func apcnextbutton(_ sender: Any) {
+        performSegue(withIdentifier: "apcnext", sender: self)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        backbutton.layer.cornerRadius = 20
-        nextbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

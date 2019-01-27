@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Screenshot(1).PNG">
-   </FileRef>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>

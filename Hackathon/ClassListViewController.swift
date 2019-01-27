@@ -10,7 +10,7 @@ import UIKit
 
 class ClassListViewController: UIViewController {
 
-    @IBOutlet weak var gamebutton: UILabel!
+    @IBOutlet weak var gamebutton: UIButton!
     @IBOutlet weak var blogbutton: UIButton!
     @IBAction func blogStartButton(_ sender: Any) {
         performSegue(withIdentifier: "toBlogStart", sender: self)

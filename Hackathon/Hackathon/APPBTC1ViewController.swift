@@ -1,5 +1,5 @@
 //
-//  TTSViewController.swift
+//  APPBTC1ViewController.swift
 //  Hackathon
 //
 //  Created by Jessamyn Malia on 1/26/19.
@@ -8,24 +8,20 @@
 
 import UIKit
 
-class TTSViewController: UIViewController {
+class APPBTC1ViewController: UIViewController {
 
-    @IBOutlet weak var backbutton: UIButton!
-    @IBOutlet weak var nextbutton: UIButton!
-    @IBAction func ttsnextbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsnext", sender: self)
+    @IBAction func appbtc1nextbutton(_ sender: Any) {
+        performSegue(withIdentifier: "appbtc1next", sender: self)
     }
     
-    @IBAction func ttsbackbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsback", sender: self)
+    @IBAction func appbtbackbutton(_ sender: Any) {
+        performSegue(withIdentifier: "appbtc1back", sender: self)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        backbutton.layer.cornerRadius = 20
-        nextbutton.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {

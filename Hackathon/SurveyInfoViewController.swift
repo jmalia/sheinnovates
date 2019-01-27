@@ -10,9 +10,16 @@ import UIKit
 
 class SurveyInfoViewController: UIViewController {
 
-    @IBAction func surveyinfoskipbutton(_ sender: Any) {
-        performSegue(withIdentifier: "surveyinfoskip", sender: self)
+    @IBOutlet weak var apstartbutton: UIButton!
+    
+    @IBAction func apicstartbutton(_ sender: Any) {
+        performSegue(withIdentifier: "apinfostart", sender: self)
     }
+    
+    @IBAction func apskipbutton(_ sender: Any) {
+        performSegue(withIdentifier: "apskipfunc", sender: self)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

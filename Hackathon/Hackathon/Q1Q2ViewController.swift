@@ -1,5 +1,5 @@
 //
-//  TTSViewController.swift
+//  Q1Q2ViewController.swift
 //  Hackathon
 //
 //  Created by Jessamyn Malia on 1/26/19.
@@ -8,24 +8,30 @@
 
 import UIKit
 
-class TTSViewController: UIViewController {
+class Q1Q2ViewController: UIViewController {
 
-    @IBOutlet weak var backbutton: UIButton!
-    @IBOutlet weak var nextbutton: UIButton!
-    @IBAction func ttsnextbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsnext", sender: self)
+    @IBOutlet weak var q1a3button: UIButton!
+    @IBOutlet weak var q1a2button: UIButton!
+    @IBOutlet weak var q1a1button: UIButton!
+    @IBAction func q2canswer1button(_ sender: Any) {
+        performSegue(withIdentifier: "q2canswer1", sender: self)
     }
     
-    @IBAction func ttsbackbutton(_ sender: Any) {
-        performSegue(withIdentifier: "ttsback", sender: self)
+    @IBAction func q2wanswer2button(_ sender: Any) {
+        performSegue(withIdentifier: "q2wanswer2", sender: self)
+    }
+    
+    @IBAction func q1wanswer3button(_ sender: Any) {
+        performSegue(withIdentifier: "q2wanswer3", sender: self)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        backbutton.layer.cornerRadius = 20
-        nextbutton.layer.cornerRadius = 20
+        q1a1button.layer.cornerRadius = 20
+        q1a2button.layer.cornerRadius = 20
+        q1a3button.layer.cornerRadius = 20
     }
 
     override func didReceiveMemoryWarning() {
