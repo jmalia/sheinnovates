@@ -2242,20 +2242,8 @@ To use a photo from the internet, find the photo and right click on it. You will
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rct-87-Gug">
-                                <rect key="frame" x="95" y="326" width="46" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.56032348850000002" green="0.85334585650000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="0.56032348850000002" green="0.85334585650000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="q2q2canswerbutton:" destination="Wgw-7N-UdH" eventType="touchUpInside" id="Uyj-Wy-ps4"/>
-                                    <segue destination="2kh-TE-GZ7" kind="show" identifier="q2q2wanswer" id="Hb4-8C-bWh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G96-HL-Uux">
-                                <rect key="frame" x="95" y="412" width="46" height="46"/>
+                                <rect key="frame" x="95" y="326" width="46" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.56032348850000002" green="0.85334585650000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button">
@@ -2273,6 +2261,18 @@ To use a photo from the internet, find the photo and right click on it. You will
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rct-87-Gug">
+                                <rect key="frame" x="95" y="412" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.56032348850000002" green="0.85334585650000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.56032348850000002" green="0.85334585650000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="q2q2canswerbutton:" destination="Wgw-7N-UdH" eventType="touchUpInside" id="Uyj-Wy-ps4"/>
+                                    <segue destination="2kh-TE-GZ7" kind="show" identifier="q2q2wanswer" id="Hb4-8C-bWh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2502,6 +2502,10 @@ To use a photo from the internet, find the photo and right click on it. You will
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="START"/>
+                                <connections>
+                                    <action selector="quizthreestartbutton:" destination="bAj-LP-l6u" eventType="touchUpInside" id="xGD-li-HqI"/>
+                                    <segue destination="d1M-hb-wYc" kind="show" identifier="quiz3start" id="V9p-tD-boy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS1-bF-65w">
                                 <rect key="frame" x="151" y="593" width="73" height="54"/>
@@ -2723,34 +2727,35 @@ To use a photo from the internet, find the photo and right click on it. You will
         <image name="level 1.jpeg" width="604" height="456"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wOw-f4-kLB"/>
-        <segue reference="sTk-9D-fBU"/>
-        <segue reference="cai-fo-BQj"/>
-        <segue reference="M9T-DF-zlw"/>
-        <segue reference="BNZ-qs-B8A"/>
-        <segue reference="Jel-qS-PK6"/>
-        <segue reference="IrR-vE-q6K"/>
-        <segue reference="UIY-sE-LYi"/>
-        <segue reference="UV4-Qg-izv"/>
-        <segue reference="XBX-kk-wE8"/>
         <segue reference="bTJ-UO-xaN"/>
+        <segue reference="XBX-kk-wE8"/>
         <segue reference="avB-fN-zCb"/>
         <segue reference="xuX-YK-1Zp"/>
         <segue reference="cj2-MW-aA5"/>
+        <segue reference="D8b-Ik-7Qh"/>
+        <segue reference="yH5-X5-UPy"/>
+        <segue reference="u5I-pG-QN8"/>
+        <segue reference="3ua-Zf-AMc"/>
+        <segue reference="8VQ-au-fum"/>
+        <segue reference="Uzn-eO-zuZ"/>
+        <segue reference="FhR-wJ-IDW"/>
+        <segue reference="nFG-Op-6mn"/>
+        <segue reference="Lc4-2N-Ko0"/>
+        <segue reference="V9p-tD-boy"/>
+        <segue reference="m62-Bm-LO8"/>
+        <segue reference="IrR-vE-q6K"/>
+        <segue reference="UIY-sE-LYi"/>
+        <segue reference="UV4-Qg-izv"/>
+        <segue reference="BNZ-qs-B8A"/>
         <segue reference="99U-ah-jiN"/>
         <segue reference="Qc6-xt-Qsf"/>
         <segue reference="Ppi-b6-Mri"/>
-        <segue reference="jeW-wK-lsI"/>
-        <segue reference="UnV-NK-io5"/>
         <segue reference="Ydt-Xr-z9E"/>
-        <segue reference="alM-yT-MTI"/>
-        <segue reference="Uzn-eO-zuZ"/>
-        <segue reference="8VQ-au-fum"/>
-        <segue reference="3ua-Zf-AMc"/>
-        <segue reference="nFG-Op-6mn"/>
-        <segue reference="Lc4-2N-Ko0"/>
-        <segue reference="u5I-pG-QN8"/>
-        <segue reference="D8b-Ik-7Qh"/>
-        <segue reference="yH5-X5-UPy"/>
+        <segue reference="UnV-NK-io5"/>
+        <segue reference="jeW-wK-lsI"/>
+        <segue reference="M9T-DF-zlw"/>
+        <segue reference="cai-fo-BQj"/>
+        <segue reference="sTk-9D-fBU"/>
+        <segue reference="wOw-f4-kLB"/>
     </inferredMetricsTieBreakers>
 </document>

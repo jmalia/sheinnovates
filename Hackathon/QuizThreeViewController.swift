@@ -10,6 +10,10 @@ import UIKit
 
 class QuizThreeViewController: UIViewController {
 
+    @IBAction func quizthreestartbutton(_ sender: Any) {
+        performSegue(withIdentifier: "quiz3start", sender: self)
+    }
+    
     @IBAction func quizthreeskipbutton(_ sender: Any) {
         performSegue(withIdentifier: "quiz3skip", sender: self)
     }
